@@ -39,17 +39,24 @@ export default function Path(){
             url: "http://someurl/image.jpg"
           }
         }
+      },{
+        title: "May 1940",
+        cardTitle: "Dunkirk",
+        url: "http://www.history.com",
+        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        media: {
+          type: "IMAGE",
+          source: {
+            url: "http://someurl/image.jpg"
+          }
+        }
       }];
   
       return (
-        <div style={{backgroundColor:'white'}}>  
-        <h1>Career Timeline</h1>
-        <Chrono  items={items} mode="VERTICAL"/>
-
-        <div className="path" id="path">
-          <div style={{backgroundColor:'white', height:'200px'}}>
-          </div>
-        </div>
+        <div className="path" id="path" style={{backgroundColor:'white'}}>  
+          <h1>Career Timeline</h1>
+        <Chrono items={items} mode="VERTICAL" scrollable={{scrollbar: false}} />
         </div>
       );
 }

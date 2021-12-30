@@ -6,30 +6,29 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+      icon: "./assets/acheivements/award.png",
+      title: "Guvi Leaderboard 2019",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "Awarded for acheiving top leaderboard person of guvi.in coding portal",
+      img:"assets/acheivements/guvi.jpg"
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "./assets/acheivements/award.png",
+      title: "PayPal Spot Award",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Got a spot award recognition for domain migration work at paypal",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "assets/acheivements/spotaward.png",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "./assets/acheivements/award.png",
+      title: "Hackerrank Six Star Rated Coder",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Got recognized by hackerrank for advanced problem solving ",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "assets/acheivements/Hackerrank.png",
     },
   ];
 
@@ -55,12 +54,12 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  {/* <span>Projects</span> */}
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />
               </div>
