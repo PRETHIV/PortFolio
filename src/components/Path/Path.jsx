@@ -16,42 +16,31 @@ export default function Path(){
           }
         }
       },{
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "Feb 2020",
+        cardTitle: "PayPal",
+        url: "https://www.paypal.com/in/home",
+        cardSubtitle:"Started Internship at paypal",
+        cardDetailedText: "",
         media: {
           type: "IMAGE",
           source: {
-            url: "http://someurl/image.jpg"
+            url: "assets/logos/paypal.png"
           }
         }
       },{
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "July 2016",
+        cardTitle: "Jeppiaar Engineering College",
+        url: "https://jeppiaarcollege.org/jeppiaar/",
+        cardSubtitle:"Started B.Tech in Information Technology",
+        cardDetailedText: "Started Bachelors of  Technology in Information Technology",
         media: {
           type: "IMAGE",
           source: {
-            url: "http://someurl/image.jpg"
+            url: "assets/logos/jpr.jpg"
           }
         }
-      },{
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-        media: {
-          type: "IMAGE",
-          source: {
-            url: "http://someurl/image.jpg"
-          }
-        }
-      }];
+      }
+    ];
   
       return (
         <div className="path" id="path" style={{backgroundColor:'white'}}>  
