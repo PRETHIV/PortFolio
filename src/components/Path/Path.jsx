@@ -4,23 +4,23 @@ import "./Path.scss";
 export default function Path(){
 
     const items = [{
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "August 2020",
+        cardTitle: "PayPal Software Engineer 1",
+        url: "https://www.paypal.com/in/home",
+        cardSubtitle:"Started my career with paypal as software engineer",
+        cardDetailedText: "Got offered by paypal as software engineer 1 ",
         media: {
           type: "IMAGE",
           source: {
-            url: "http://someurl/image.jpg"
+            url: "assets/logos/paypal.png"
           }
         }
       },{
         title: "Feb 2020",
-        cardTitle: "PayPal",
+        cardTitle: "PayPal Software Engineer Intern",
         url: "https://www.paypal.com/in/home",
         cardSubtitle:"Started Internship at paypal",
-        cardDetailedText: "",
+        cardDetailedText: "Joined paypal as software engineer intern",
         media: {
           type: "IMAGE",
           source: {
