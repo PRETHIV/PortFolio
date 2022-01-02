@@ -52,67 +52,30 @@ export default function Path(){
         <div className="timeline-section">
         <div className="timeline-items">
           <div className="timeline-item">
-            <div className="timeline-dot"></div>
+            <div className="timeline-dot-1"></div>
             <div className="timeline-date">2015</div>
             <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
+              <h3>Paypal</h3>
+              <p>Software Engineer 1</p>
             </div>
           </div>
 
           <div className="timeline-item">
-            <div className="timeline-dot"></div>
+            <div className="timeline-dot-2"></div>
             <div className="timeline-date">2016</div>
             <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
+              <h3>Paypal</h3>
+              <p>Software Engineer Intern</p>
+              <p></p>
             </div>
           </div>
 
           <div className="timeline-item">
-            <div className="timeline-dot"></div>
+            <div className="timeline-dot-3"></div>
             <div className="timeline-date">2017</div>
             <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
-            </div>
-          </div>
-
-
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2017</div>
-            <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
-            </div>
-          </div><div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2017</div>
-            <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
-            </div>
-          </div><div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2017</div>
-            <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
-            </div>
-          </div><div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2017</div>
-            <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
-            </div>
-          </div><div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2017</div>
-            <div className="timeline-content">
-              <h3>Timeline Item Title</h3>
-              <p>This is a sample time line item title</p>
+              <h3>Jeppiaar Eng. College</h3>
+              <p>B.Tech in Information Technology</p>
             </div>
           </div>
 

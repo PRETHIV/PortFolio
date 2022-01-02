@@ -21,11 +21,7 @@
   content: '';
 }
 
-@media (max-width:1000px) {
-  .timeline-items::before{
-    left:calc(50% + 7px)
-  }
-}
+
 
 .timeline-section {
   background-color: #24292d;
@@ -59,19 +55,53 @@
   margin-bottom: 0;
 }
 
-.timeline-dot{
+.timeline-dot-1{
   height: 16px;
   width: 16px;
   background-color: #eaa023;
   position: absolute;
-  left:calc(50% + 1px);
+  left:calc(50% + 53px);
   border-radius: 50%;
   top: 10px;
 }
 
+
+.timeline-dot-2{
+  height: 16px;
+  width: 16px;
+  background-color: #eaa023;
+  position: absolute;
+  left:calc(50% + 35px);
+  border-radius: 50%;
+  top: 10px;
+}
+.timeline-dot-3{
+  height: 16px;
+  width: 16px;
+  background-color: #eaa023;
+  position: absolute;
+  left:calc(50% + 5px);
+  border-radius: 50%;
+  top: 10px;
+}
 .timeline-date{
   font-size: 18px;
   color:#eaa023;
+}
+
+@media (max-width:1000px) {
+  .timeline-items::before{
+    left:calc(50% + 7px)
+  }
+  .timeline-dot-1{
+    left:calc(50%);
+  }
+  .timeline-dot-2{
+    left:calc(50% + 1px);
+  }
+  .timeline-dot-3{
+    left:calc(50% + 1px);
+  }
 }
 
 .timeline-content h3{
