@@ -53,7 +53,7 @@ export default function Path(){
         <div className="timeline-items">
           <div className="timeline-item">
             <div className="timeline-dot-1"></div>
-            <div className="timeline-date">2015</div>
+            <div className="timeline-date">Aug 2020</div>
             <div className="timeline-content">
               <h3>Paypal</h3>
               <p>Software Engineer 1</p>
@@ -62,7 +62,7 @@ export default function Path(){
 
           <div className="timeline-item">
             <div className="timeline-dot-2"></div>
-            <div className="timeline-date">2016</div>
+            <div className="timeline-date">Feb 2020</div>
             <div className="timeline-content">
               <h3>Paypal</h3>
               <p>Software Engineer Intern</p>
@@ -72,7 +72,7 @@ export default function Path(){
 
           <div className="timeline-item">
             <div className="timeline-dot-3"></div>
-            <div className="timeline-date">2017</div>
+            <div className="timeline-date">June 2016</div>
             <div className="timeline-content">
               <h3>Jeppiaar Eng. College</h3>
               <p>B.Tech in Information Technology</p>
