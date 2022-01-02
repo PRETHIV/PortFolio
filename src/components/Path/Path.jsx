@@ -12,7 +12,7 @@ export default function Path(){
         media: {
           type: "IMAGE",
           source: {
-            url: "assets/logos/paypal.png"
+            url: "assets/logos/paypal.jpg"
           }
         }
       },{
@@ -24,7 +24,7 @@ export default function Path(){
         media: {
           type: "IMAGE",
           source: {
-            url: "assets/logos/paypal.png"
+            url: "assets/logos/paypal.jpg"
           }
         }
       },{
@@ -43,9 +43,82 @@ export default function Path(){
     ];
   
       return (
+      <div className="chrono">
         <div className="path" id="path" style={{backgroundColor:'white'}}>  
           <h1>Career Timeline</h1>
-        <Chrono items={items} mode="VERTICAL" scrollable={{scrollbar: false}} />
+        {/* <Chrono style={{padding:"10%"}} items={items} mode="VERTICAL" cardHeight={300} scrollable={{scrollbar: false}}>
+        </Chrono> */}
         </div>
+        <div className="timeline-section">
+        <div className="timeline-items">
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2015</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2016</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div>
+
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div><div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div><div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div><div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div><div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2017</div>
+            <div className="timeline-content">
+              <h3>Timeline Item Title</h3>
+              <p>This is a sample time line item title</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
       );
 }

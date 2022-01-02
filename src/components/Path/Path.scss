@@ -1,6 +1,100 @@
 @import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 
+.timeline-items {
+  max-width: 1000px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+
+
+.timeline-items::before{
+  position:absolute;
+  width:2px;
+  height:100%;
+  background-color: #2f363e;
+  left:calc(50% - 76px);
+  content: '';
+}
+
+@media (max-width:1000px) {
+  .timeline-items::before{
+    left:calc(50% + 7px)
+  }
+}
+
+.timeline-section {
+  background-color: #24292d;
+  min-height: 100vh;
+  padding:100px 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.chrono{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.timeline-item{
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item:nth-child(odd){
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even){
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-item:last-child{
+  margin-bottom: 0;
+}
+
+.timeline-dot{
+  height: 16px;
+  width: 16px;
+  background-color: #eaa023;
+  position: absolute;
+  left:calc(50% + 1px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date{
+  font-size: 18px;
+  color:#eaa023;
+}
+
+.timeline-content h3{
+  font-size: 20px;
+  color: #ffffff;
+  margin:0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.timeline-content p{
+  color: #c8c8c8;
+  font-size: 16px;
+  font-weight:300;
+  line-height:22px;
+}
+
+
+.timeline-content{
+  background-color: #2f363e;
+  padding: 30px;
+  border-radius: 5px;
+}
 
 .path {
   background-color: white;
